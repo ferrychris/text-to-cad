@@ -1,12 +1,12 @@
 {
   "name": "cad-skills-docs",
-  "version": "0.3.11",
+  "version": "0.3.13",
   "license": "MIT",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
+    "dev": "node init && next dev",
+    "build": "node init && next build",
+    "start": "node init && next start",
     "lint": "eslint",
     "check": "node scripts/check-hero-step-assets.mjs && npm run lint && npm run build"
   },
